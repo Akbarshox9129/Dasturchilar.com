@@ -1,16 +1,4 @@
 # Searching algorithms
-# Linear search
-def LinearSearch(nums,x):
-    for i in range(len(nums)):
-        if nums[i]==x:
-            return i
-    return -1
-numbers=[1,5,6,1,9,7]
-n=int(input("n= "))
-if LinearSearch(numbers,n)!=-1:
-    print(n,"qiymati",LinearSearch(numbers,n),"-indexda joylashgan")
-else:
-    print("Bunday qiymat yo'q")
 # Binary search
 def BinarySearch(nums,l,r,x):
     if r>=l:
